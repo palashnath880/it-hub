@@ -22,9 +22,13 @@ body{
     left: 0;
 }
 
+.carousel-caption{
+    height: fit-content;
+}
+
 @media ( max-width: 768px) {
     .carousel-caption{
-        width: 100% !important;
+        width: 80% !important;
         padding: 0px !important;
         height: fit-content;
     }
@@ -34,6 +38,12 @@ body{
     }
     .carousel-item .carousel-text p{
         font-size: 12px !important;
+    }
+}
+
+@media ( max-width: 992px) {
+    .carousel-caption{
+        width: 80% !important;
     }
 }
 

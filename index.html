@@ -24,11 +24,11 @@
                 </button>
                 <div class="navbar-collapse collapse" id="navbarMain">
                     <ul class="navbar-nav mx-auto ps-3 ps-md-0">
-                        <li class="nav-item"><a href="" class="nav-link font-poppins fw-normal">Home</a></li>
-                        <li class="nav-item"><a href="" class="nav-link font-poppins fw-normal">Courses</a></li>
-                        <li class="nav-item"><a href="" class="nav-link font-poppins fw-normal">Deals</a></li>
-                        <li class="nav-item"><a href="" class="nav-link font-poppins fw-normal">Success</a></li>
-                        <li class="nav-item"><a href="" class="nav-link font-poppins fw-normal">Register</a></li>
+                        <li class="nav-item"><a href="#home" class="nav-link font-poppins fw-normal">Home</a></li>
+                        <li class="nav-item"><a href="#courses" class="nav-link font-poppins fw-normal">Courses</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link font-poppins fw-normal">About</a></li>
+                        <li class="nav-item"><a href="#success" class="nav-link font-poppins fw-normal">Success</a></li>
+                        <li class="nav-item"><a href="#faq" class="nav-link font-poppins fw-normal">FAQ</a></li>
                     </ul>
                     <form class="d-flex mt-3 mt-md-0">
                         <input class="form-control shadow-none rounded-0 border border-end-0" type="search" placeholder="Search Courses" aria-label="Search">
@@ -41,7 +41,7 @@
     <!-- Header end -->
     <main>
         <!-- Carousel start  -->
-        <section>
+        <section id="home">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -49,7 +49,12 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="carousel-img p-0">
-                                        <img src="images/slide-1.png" class="img-fluid" alt="" srcset="">
+                                        <!-- For desktop or laptop -->
+                                        <img src="images/slide-1.png" class="img-fluid d-none d-lg-block" alt="" srcset="">
+                                        <!-- For tablet -->
+                                        <img src="images/tablet/slide-1.png" class="img-fluid d-none d-md-block d-lg-none" alt="" srcset="">
+                                        <!-- For mobile -->
+                                        <img src="images/mobile/slide-1.png" class="img-fluid w-100 d-block d-md-none" alt="" srcset="">
                                     </div>
                                     <div class="carousel-caption w-50 top-50 start-50 end-0 translate-middle">
                                         <div class="carousel-text text-center">
@@ -61,7 +66,12 @@
                                 </div>
                                 <div class="carousel-item active">
                                     <div class="carousel-img p-0">
-                                        <img src="images/slide-2.png" class="img-fluid" alt="" srcset="">
+                                        <!-- For desktop or laptop -->
+                                        <img src="images/slide-2.png" class="img-fluid d-none d-lg-block" alt="" srcset="">
+                                        <!-- For tablet -->
+                                        <img src="images/tablet/slide-2.png" class="img-fluid d-none d-md-block d-lg-none" alt="" srcset="">
+                                        <!-- For mobile -->
+                                        <img src="images/mobile/slide-2.png" class="img-fluid w-100 d-block d-md-none" alt="" srcset="">
                                     </div>
                                     <div class="carousel-caption w-50 top-50 start-50 end-0 translate-middle">
                                         <div class="carousel-text text-center">
@@ -73,7 +83,12 @@
                                 </div>
                                 <div class="carousel-item active">
                                     <div class="carousel-img p-0">
-                                        <img src="images/slide-3.png" class="img-fluid" alt="" srcset="">
+                                        <!-- For desktop or laptop -->
+                                        <img src="images/slide-3.png" class="img-fluid d-none d-lg-block" alt="" srcset="">
+                                        <!-- For tablet -->
+                                        <img src="images/tablet/slide-3.png" class="img-fluid d-none d-md-block d-lg-none" alt="" srcset="">
+                                        <!-- For mobile -->
+                                        <img src="images/mobile/slide-3.png" class="img-fluid w-100 d-block d-md-none" alt="" srcset="">
                                     </div>
                                     <div class="carousel-caption w-50 top-50 start-50 end-0 translate-middle">
                                         <div class="carousel-text text-center">
@@ -100,7 +115,7 @@
         </section>
         <!-- Carousel End  -->
         <!-- Our Courses Start  -->
-        <section>
+        <section id="courses">
             <div class="container py-md-5 ">
                 <div class="row justify-content-center py-5">
                     <div class="col-12 col-lg-6 text-center">
@@ -112,7 +127,7 @@
                     <div class="col-12 col-lg-6 mb-4">
                         <div class="courses-item border rounded-1 d-flex flex-column flex-md-row align-items-center">
                             <div class="course-thumbnail" >
-                                <img class="img-fluid" src="images/course-1.png" alt="">
+                                <img class="img-fluid" src="images/ui-ux.png" alt="">
                             </div>
                             <div class="course-text p-3">
                                 <h2 class="course-title fs-4 mb-2">Fundamental Of UI/UX Design</h2>
@@ -124,7 +139,7 @@
                     <div class="col-12 col-lg-6 mb-4">
                         <div class="courses-item border rounded-1 d-flex flex-column flex-md-row align-items-center">
                             <div class="course-thumbnail" >
-                                <img class="img-fluid" src="images/course-1.png" alt="">
+                                <img class="img-fluid" src="images/web-development.png" alt="">
                             </div>
                             <div class="course-text p-3">
                                 <h2 class="course-title fs-4 mb-2">Full Stack Development</h2>
@@ -136,7 +151,7 @@
                     <div class="col-12 col-lg-6 mb-4">
                         <div class="courses-item border rounded-1 d-flex flex-column flex-md-row align-items-center">
                             <div class="course-thumbnail" >
-                                <img class="img-fluid" src="images/course-1.png" alt="">
+                                <img class="img-fluid" src="images/mern-stack.png" alt="">
                             </div>
                             <div class="course-text p-3">
                                 <h2 class="course-title fs-4 mb-2">Mern Stack Development</h2>
@@ -148,7 +163,7 @@
                     <div class="col-12 col-lg-6 mb-4">
                         <div class="courses-item border rounded-1 d-flex flex-column flex-md-row align-items-center">
                             <div class="course-thumbnail" >
-                                <img class="img-fluid" src="images/course-1.png" alt="">
+                                <img class="img-fluid" src="images/digital-marketing.png" alt="">
                             </div>
                             <div class="course-text p-3">
                                 <h2 class="course-title fs-4 mb-2">Digital Marketing</h2>
@@ -160,7 +175,7 @@
                     <div class="col-12 col-lg-6 mb-4">
                         <div class="courses-item border rounded-1 d-flex flex-column flex-md-row align-items-center">
                             <div class="course-thumbnail" >
-                                <img class="img-fluid" src="images/course-1.png" alt="">
+                                <img class="img-fluid" src="images/photography.png" alt="">
                             </div>
                             <div class="course-text p-3">
                                 <h2 class="course-title fs-4 mb-2">Photography</h2>
@@ -172,7 +187,7 @@
                     <div class="col-12 col-lg-6 mb-4">
                         <div class="courses-item border rounded-1 d-flex flex-column flex-md-row align-items-center">
                             <div class="course-thumbnail" >
-                                <img class="img-fluid" src="images/course-1.png" alt="">
+                                <img class="img-fluid" src="images/motion.png" alt="">
                             </div>
                             <div class="course-text p-3">
                                 <h2 class="course-title fs-4 mb-2">Motion Graphics</h2>
@@ -190,8 +205,48 @@
             </div>
         </section>
         <!-- Our Courses End -->
+        <!-- About area start -->
+        <section id="about">
+            <div class="container py-5">
+                <div class="row m-0" style="background-color: #F4FAFD;">
+                    <div class="col-md-5 p-0">
+                        <div class="about-img">
+                            <!-- For tablet and laptop -->
+                            <img src="images/about.png" class="img-fluid d-none d-md-block w-100" alt="">
+                            <!-- For mobile -->
+                            <img src="images/mobile/about.png" class="img-fluid d-block d-md-none w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-7 d-flex align-items-center">
+                        <div class="about-text px-3 py-4 p-md-4 ps-lg-3">
+                            <h1 class="m-0 p-0 display-6 d-none d-lg-block fw-bold">Explore The elearning Institute</h1>
+                            <h1 class="m-0 p-0 fs-4 d-block d-lg-none fw-bold">Explore The elearning Institute</h1>
+                            <p class="mt-4 d-none d-lg-block">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
+                            <p class="d-none d-lg-block">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+                            <p class="d-block d-lg-none">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which..... <a href="" class="text-decoration-none">See More</a></p>
+                            <div class="d-flex mt-2 mt-lg-4">
+                                <div class="me-4">
+                                    <h2 class="mb-0 fw-bold">3.2k+</h2>
+                                    <p>Online Courses</p>
+                                </div>
+                                <div class="me-4">
+                                    <h2 class="mb-0 fw-bold">600+</h2>
+                                    <p>Expert Member</p>
+                                </div>
+                                <div class="me-4">
+                                    <h2 class="mb-0 fw-bold">1k+</h2>
+                                    <p>Rating & Review</p>
+                                </div>
+                            </div>
+                            <a href="" class="btn border-0 bg-primary rounded-1 fw-normal fs-6 text-light py-2 px-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About area end -->
         <!-- Ready to join section start  -->
-        <section>
+        <section id="register">
             <div class="container py-4 py-md-0">
                 <div class="row justify-content-center bg-primary py-5 px-3 p-md-5">
                     <div class="col-12 col-lg-6">
@@ -241,7 +296,7 @@
         </div>
         <!-- Ready to join modal end -->
         <!-- Success area star -->
-        <section>
+        <section id="success">
             <div class="container py-5">
                 <div class="row mb-5">
                     <div class="col-12 col-md-8 col-lg-6">
@@ -306,7 +361,7 @@
         </section>
         <!-- Success area end -->
         <!-- FAQ section area start -->
-        <section>
+        <section id="faq">
             <div class="container py-5">
                 <div class="row justify-content-center mb-5">
                     <div class="col-lg-7">
