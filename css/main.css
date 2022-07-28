@@ -25,3 +25,17 @@ body{
 .carousel-item:nth-of-type(3){
     background-image: linear-gradient(#00000070, #00000070), url(../images/slide-3.png);
 }
+
+.footer-social a{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #353a42;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 15px;
+}
